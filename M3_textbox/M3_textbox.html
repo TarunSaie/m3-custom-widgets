@@ -1,0 +1,23 @@
+<wm-custom-widget-container>
+    <wm-layoutgrid name="layoutgrid1">
+        <wm-gridrow name="gridrow1" class="custom-styles">
+            <wm-gridcolumn columnwidth="6" name="gridcolumn1">
+                <wm-composite name="composite1" horizontalalign="left">
+                    <wm-button class="leading-icon" caption="" type="button" margin="unset" name="button2" iconclass="wi wi-search" show="bind:pageParams.leadingIcon"></wm-button>
+                    <wm-label class="col-md-3 control-label custom-control-label" conditionalclass="bind:pageParams.style" notag="true" name="label1"></wm-label>
+                    <wm-container class="col-md-9" name="container1">
+                        <wm-text name="text1" class="form-control app-textbox custom-app-textbox" updateon="default" placeholder="Lable" conditionalclass="bind:pageParams.style" on-focus="text1Focus($event, widget)" on-blur="text1Blur($event, widget)"></wm-text>
+                    </wm-container>
+                    <wm-button class="trailing-icon" caption="" type="button" margin="unset" name="button1" iconclass="wi wi-close" on-click="button1Click($event, widget)" show="bind:pageParams.trailingIcon"></wm-button>
+                </wm-composite>
+            </wm-gridcolumn>
+            <wm-gridcolumn columnwidth="6" name="gridcolumn2"></wm-gridcolumn>
+        </wm-gridrow>
+        <wm-gridrow name="gridrow2">
+            <wm-gridcolumn columnwidth="6" name="gridcolumn3">
+                <wm-label padding="unset" class="p supporting-text" type="p" name="label2" caption="Supporting text"></wm-label>
+            </wm-gridcolumn>
+            <wm-gridcolumn columnwidth="6" name="gridcolumn4"></wm-gridcolumn>
+        </wm-gridrow>
+    </wm-layoutgrid>
+</wm-custom-widget-container>

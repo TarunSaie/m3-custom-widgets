@@ -1,0 +1,98 @@
+.custom-app-textbox {
+    width: 210px !important;
+    height: 57px !important;
+    padding: 4px 0 0 16px !important;
+    border-radius: 4px 4px 0px 0px !important;
+    background: #E6E0E9 !important;
+    margin-top: 3px !important;
+    border: 1px solid #49454F !important;
+    border-width: 0 0 1px 0 !important;
+    color: #1D1B20 !important;
+    font-size: 18px !important;
+}
+
+.custom-app-textbox::placeholder {
+    color: transparent !important;
+}
+
+.custom-control-label {
+    color: #49454F !important;
+    font-size: 14px !important;
+    font-style: normal !important;
+    font-weight: 500 !important;
+    line-height: 16px !important;
+    position: absolute !important;
+    z-index: 99 !important;
+    top: 8px !important;
+    left: 16px !important;
+}
+
+.custom-control-label.no-float-label {
+    font-size: 18px !important;
+    top: 25px !important;
+}
+
+.supporting-text {
+    margin: 6px 16px 0 16px !important;
+    color: #49454F !important;
+    font-size: 14px !important;
+    font-style: normal !important;
+    line-height: 16px !important;
+}
+
+.custom-styles {
+    /* height: 57px !important; */
+}
+
+.custom-styles .app-composite-widget {
+    margin: 0 !important;
+}
+
+.trailing-icon {
+    position: absolute !important;
+    left: 175px !important;
+    top: 14px !important;
+    background-color: transparent !important;
+    box-shadow: none !important;
+    border: 0 !important;
+    font-size: 20px !important;
+}
+
+.leading-icon {
+    position: absolute !important;
+    z-index: 99 !important;
+    color: #49454F !important;
+    font-size: 18px !important;
+    top: 18px !important;
+    padding: 0 !important;
+    left: 8px !important;
+    background: transparent !important;
+    box-shadow: none !important;
+}
+
+.leading-icon+.custom-control-label {
+    left: 35px !important;
+}
+
+.has-leading-icon {
+    padding-left: 35px !important;
+}
+
+.outlined.custom-control-label {
+    left: 10px !important;
+    top: -4px !important;
+    padding: 0 5px !important;
+    background-color: #FFFFFF !important;
+    width: auto !important;
+}
+
+.outlined.custom-control-label.no-float-label {
+    left: 30px !important;
+    top: 25px !important;
+}
+
+.outlined.custom-app-textbox {
+    background: transparent !important;
+    border-width: 1px !important;
+    border-radius: 4px !important;
+}

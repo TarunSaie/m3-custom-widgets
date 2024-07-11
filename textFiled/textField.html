@@ -1,0 +1,13 @@
+<wm-custom-widget-container>
+    <wm-composite name="composite" captionposition="floating" required="false">
+        <wm-label class="control-label" notag="true" name="labelCaption" caption="bind:pageParams.caption" conditionalclass="bind:pageParams.style"></wm-label>
+        <wm-container class="form-field-wrapper" name="container2">
+            <wm-button class="btn-leading-icon" caption="" type="button" margin="unset" name="buttonLeadingIcon" iconclass="bind:pageParams.leadingIconClass" show="bind:pageParams.showLeadingIcon" deferload="true"></wm-button>
+            <wm-text name="textFiled" updateon="default" placeholder="Enter Text" conditionalclass="bind:pageParams.style" disabled="bind:pageParams.disable"></wm-text>
+            <wm-button class="btn-trailing-icon" caption="" type="button" margin="unset" name="buttonTrailingIcon" iconclass="bind:pageParams.trailingIconClass" on-click="button1Click($event, widget)" show="bind:pageParams.showTrailingIcon" deferload="true"></wm-button>
+        </wm-container>
+        <wm-container class="helper-wrapper" name="containerSupportingWrapper">
+            <wm-label padding="unset" class="p helper-text" type="p" name="labelSupportingText" caption="bind:pageParams.supportingText"></wm-label>
+        </wm-container>
+    </wm-composite>
+</wm-custom-widget-container>

@@ -1,0 +1,43 @@
+
+.margin-bottom {
+    margin-bottom: 0px;
+}
+
+.select-container {
+    width: 100px;
+    height: 30px;
+}
+
+.full-size {
+    width: 100%;
+    height: 100%;
+}
+
+wm-select {
+    width: 100%;
+    height: 100%;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
+wm-input[name='text3'] {
+    display: inline-block;
+    height: 30px;
+}
+
+div[name="composite3_1"] {
+    border: 2px solid black;
+    border-radius: 5px;
+    width: 330px;
+}
+
+select {
+    height: 100% !important;
+}
+
+input[name='text3']{
+        height: 100% !important;
+        background: unset !important;
+}
